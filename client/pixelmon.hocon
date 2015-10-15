@@ -99,7 +99,7 @@ General {
     # Allow bosses to drop Isi's hourglasses, items that let you skip stages of breeding.
     isiHourglassBossDrop=true
     # Sets how far Pokemon names and levels can be seen from (client setting only). 1=Default, 2=Farther, 3=Far
-    namePlateRange=1
+    namePlateRange=3
     # Requires HM move Fly or HM move Surf on a Pokemon to be able to ride it.
     needHMToRide=false
     # Sets NPC rarity. Higher values spawn NPCs (Trainers, tutors) more often, 0 spawns no NPCs.
