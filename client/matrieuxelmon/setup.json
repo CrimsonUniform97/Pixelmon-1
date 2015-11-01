@@ -9,6 +9,9 @@
   "mods":[ 
    { 
     "filename":"pixelmonfriends-1.0.0.jar", 
+    "bundled":true },
+    { 
+    "filename":"ItemFinder-1.8-2.0.1-universal", 
     "bundled":true }
    ]
  }, 
