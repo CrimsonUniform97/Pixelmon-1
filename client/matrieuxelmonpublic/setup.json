@@ -1,0 +1,18 @@
+{ 
+ "Name":"Matrieuxelmon - Public", 
+ "URL":"http://matrieux.dk", 
+ "requirements":{ 
+  "pixelmon":"4.0.8", 
+  "forge":"Forge 11.14.3.1450", 
+  "forgeBundled":true, 
+  "forgeFile": "forge-1.8-11.14.3.1450-universal.jar", 
+  "mods":[ 
+   { 
+    "filename":"pixelmonfriends-1.0.0.jar", 
+    "bundled":true },
+    { 
+    "filename":"ItemFinder-1.8-2.0.1-universal", 
+    "bundled":true }
+   ]
+ }
+}
