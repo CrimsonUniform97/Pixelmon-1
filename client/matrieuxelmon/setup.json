@@ -12,9 +12,24 @@
     "bundled":true },
     { 
     "filename":"ItemFinder-1.8-2.0.1-universal", 
+    "bundled":true },
+	{ 
+    "filename":"OptiFine_1.8.0_HD_U_D5.jar", 
     "bundled":true }
    ]
  }, 
+ "resourcePacks":[{
+   "name":"sphaxpixel.zip",
+   "activated":false
+ },
+ {
+   "name":"PixelmonDark.zip",
+   "activated":false
+ },
+ {
+   "name":"PokeBox.zip",
+   "activated":false
+ }],
 "servers":[ 
  { 
   "IP":"-----------",
