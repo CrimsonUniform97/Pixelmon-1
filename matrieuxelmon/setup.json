@@ -18,21 +18,9 @@
     "bundled":true }
    ]
  }, 
- "resourcePacks":[{
-   "name":"sphaxpixel.zip",
-   "activated":false
- },
- {
-   "name":"PixelmonDark.zip",
-   "activated":false
- },
- {
-   "name":"PokeBox.zip",
-   "activated":false
- }],
 "servers":[ 
  { 
-  "IP":"-----------",
+  "IP":"***.**.**.***:*****",
   "Name":"Matrieuxelmon" 
   }] 
 }
