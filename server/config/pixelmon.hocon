@@ -113,7 +113,7 @@ General {
     # If enabled, consumable held items will be returned to PokÃ©mon at the end of player vs. player battles.
     returnHeldItems=true
     # Set Legendary shrines to one use (false) or multiple use (true).
-    reusableBirdShrines=false
+    reusableBirdShrines=true
     # Increases size of Pokemon models in-game by 30%.
     scalePokemonModels=true
     # Allow Legendary bird shrines to spawn randomly in world.
