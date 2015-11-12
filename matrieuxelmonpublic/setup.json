@@ -9,16 +9,16 @@
   "mods":[ 
    { 
     "filename":"pixelmonfriends-1.0.0.jar", 
-    "bundled":true },
+    "bundled":true
+   },
     { 
     "filename":"ItemFinder-1.8-2.0.1-universal", 
-    "bundled":true },
-	{ 
-    "filename":"OptiFine_1.8.0_HD_U_D5.jar", 
-    "bundled":true },
+    "bundled":true 
+    },
 	{ 
     "filename":"CustomMainMenu-MC1.8-1.9.2.jar", 
-    "bundled":true }
+    "bundled":true 
+	}
    ]
  }  
 }
