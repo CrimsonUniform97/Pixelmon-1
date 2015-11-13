@@ -7,5 +7,5 @@
 <h1>Version 1.1</h1>
 <h3>Tilføjede Optifine og Custom MainMenu</h3>
 <hr />
-<h1>Version 1.9</h1>
+<h1>Version 1.0</h1>
 <h3>Udgivet</h3>
