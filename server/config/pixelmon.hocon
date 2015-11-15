@@ -12,22 +12,26 @@ AFKHandler {
 Breeding {
     # Allows the placement of ranch blocks, which are required for breeding Pokemon.
     allowBreeding=true
+    # Allows two Ditto to breed together to produce Eggs with random PokÃ©mon inside.
+    allowDittoDittoBreeding=true
     # Allow the crafting of ranch blocks.
     allowRanchCrafting=true
     # Allow the ranch expansion.
     allowRanchExpansion=true
-    # Enable random eggs from Ditto-Ditto breeding to contain Legendaries.
+    # Enable random Eggs from Ditto-Ditto breeding to contain Legendaries.
     allowRandomBreedingEggsToBeLegendary=false
-    # Enables random eggs from /pokegiveegg to contain Legendaries.
+    # Enables random Eggs from /pokegiveegg to contain Legendaries.
     allowRandomSpawnedEggsToBeLegendary=false
     # Number of world ticks needed to increase the breeding stage.
     breedingTicks=18000
     # Number of stages to go through before breeding occurs (1-5).
     numBreedingStages=5
-    # Sets the number of steps per egg cycle. Lower numbers hatch eggs faster.
+    # Sets the number of steps per Egg cycle. Lower numbers hatch Eggs faster.
     stepsPerEggCycle=255
     # Control speed of breeding based on the blocks set in the area. If false, will set breeding speed to 1.0x.
     useBreedingEnviroment=true
+    # Control speed of breeding based on the blocks set in the area. If false, will set breeding speed to 1.0x.
+    useBreedingEnvironment=true
 }
 # Settings for re-routing the Pixelmon saving system into an external database.
 Database {
@@ -64,8 +68,12 @@ General {
     allowPlanting=true
     # Allow the player to nickname Pokemon (not a server-wide setting, just a client setting).
     allowPokemonNicknames=true
+    # Determines if player vs. player battles give Pokemon experience. No EXP gain in PvP when false.
+    allowPvPExperience=true
     # Permits bosses to drop ranch area upgrades.
     allowRanchUpgradeBossDrop=true
+    # Allows players to make Rare Candies by crafting (server-side option).
+    allowRareCandyCrafting=true
     # Allows players to make Rare Candies by crafting (server-side option).
     allowRateCandyCrafting=true
     # Allow players to ride Pokemon. If false, no Pokemon can be ridden (server-side option).
@@ -76,6 +84,8 @@ General {
     allowTrainerExperience=true
     # Allow creepers, skeletons, etc. to spawn in the world. DANGER - can kill you while battling.
     allowVanillaMobs=false
+    # The radius in chunks around a player that Pokemon can spawn within.
+    chunkSpawnRadius=8
     # Allow players to use cloning machines to clone Mew into Mewtwo.
     cloningMachineEnabled=true
     # Sets the amount of boxes players have in their PCs (capped at 256 per player).
@@ -86,7 +96,11 @@ General {
     # Turn this off if you don't want the wiki opening from inside Pixelmon.
     enablePokedexWikiWebsiteOpen=true
     # Allow wild Pokemon to initiate battles.
+    enableWildAggression=true
+    # Allow wild Pokemon to initiate battles.
     enableWildAgression=false
+    # If enabled, players will be able to challenge others by throwing a Pokemon at the enemy player rather than a Pokemon.
+    engagePlayerByPokeBall=false
     # If enabled, players will be able to challenge others by throwing a Pokemon at the enemy player rather than a Pokemon.
     engagePlayerByPokeball=false
     # What will happen if a battle is force-ended without a proper conclusion.
@@ -135,6 +149,8 @@ General {
     # Allows you to toggle which tab list you would like to use.
     # True for Pixelmon's, false for vanilla's.
     useCustomTabList=false
+    # Load external npc files from npcs folder.  If set to true and the folder does not exist Pixelmon will dump the existing files there when it creates it
+    useExternalNPCFiles=false
     # Lets your world follow real world time or not (uses the servers system clock).
     useSystemTimeForWorldTime=false
     # Wild Pokemon will have a chance based on unfavourable battle conditions to try and flee from battle.
@@ -152,6 +168,8 @@ Graphics {
     showCurrentAttackTarget=true
     # Use the original Pokemon textures for statues.
     useOriginalPokemonTexturesForStatues=false
+    # Use the SMD normal maps for shading Poke Balls.
+    useSmoothShadingOnPokeBalls=true
     # Use the SMD normal maps for shading Poke Balls.
     useSmoothShadingOnPokeballs=true
     # Use the SMD normal maps for shading Pokemon.
@@ -177,6 +195,8 @@ PixelUtilities {
     eventTime="D/M"
     # Allows Poke Gifts to be used (both placing and using, prevention against spam).
     pokeGiftHaveEvents=true
+    # Enable multiple players to get the Pokemon from the gift.
+    pokeGiftReusable=false
     # Enable multiple players to get the Pokemon from the gift.
     pokegiftReusable=false
     # Scale grass battles to players team levels?
@@ -260,6 +280,8 @@ Spawning {
     spawnDimensions=[
         0
     ]
+    # Pokemarts will spawn with shopkeepers in Minecraft's towns
+    spawnPokemarts=true
 }
 Starters {
     # Level (min=5, max=100)
