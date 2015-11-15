@@ -1,12 +1,12 @@
 { 
- "Name":"Matrieuxelmon Public", 
+ "Name":"Matrieuxelmon", 
  "URL":"https://jensz12.com/pixelmon", 
  "requirements":{ 
   "pixelmon":"4.1.0", 
   "forge":"Forge 11.14.3.1542", 
   "forgeBundled":true, 
   "forgeFile": "forge-1.8-11.14.3.1542-universal.jar", 
-  "mods":[ 
+  "mods":[
 	{ 
     "filename":"pixelmonfriends-1.0.0.jar", 
     "bundled":true 
@@ -20,5 +20,10 @@
     "bundled":true 
 	}
    ]
- }  
+ }, 
+"servers":[ 
+  { 
+  "IP":"***.**.**.***:*****",
+  "Name":"Matrieuxelmon" 
+  }] 
 }

@@ -55,7 +55,7 @@
             "shadow" : false,
             "action":  {
                 "type": "connectToServer",
-                "ip":  "***.**.**.***:*****"
+                "ip":  "151.80.47.230:25603"
             }
         },
         "website":  {
