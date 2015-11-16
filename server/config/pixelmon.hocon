@@ -94,9 +94,9 @@ General {
     enablePointToSteer=true
     # Allows the Pokedex to open wiki pages.
     # Turn this off if you don't want the wiki opening from inside Pixelmon.
-    enablePokedexWikiWebsiteOpen=true
+    enablePokedexWikiWebsiteOpen=false
     # Allow wild Pokemon to initiate battles.
-    enableWildAggression=true
+    enableWildAggression=false
     # Allow wild Pokemon to initiate battles.
     enableWildAgression=false
     # If enabled, players will be able to challenge others by throwing a Pokemon at the enemy player rather than a Pokemon.
