@@ -1,3 +1,6 @@
+<h1>Version 1.5</h1>
+<h3>PixelmonFriends 1.1</h3>
+<hr />
 <h1>Version 1.4</h1>
 <h3>Nu med Pixelmon 4.1.0 & Forge 11.14.3.1542</h3>
 <hr />
