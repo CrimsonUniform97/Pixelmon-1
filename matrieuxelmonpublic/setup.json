@@ -7,16 +7,20 @@
   "forgeBundled":true, 
   "forgeFile": "forge-1.8-11.14.3.1542-universal.jar", 
   "mods":[ 
-	{ 
+	{
     "filename":"pixelmonfriends-1.8-1.1.0-universal.jar", 
     "bundled":true 
 	},
-    { 
+    {
     "filename":"ItemFinder-1.8-2.0.1-universal.jar", 
     "bundled":true 
 	},
-	{ 
+	{
     "filename":"CustomMainMenu-MC1.8-1.9.2.jar", 
+    "bundled":true 
+	},
+	{
+    "filename":"PixelExtras-1.8-1.0-universal.jar", 
     "bundled":true 
 	}
    ]
