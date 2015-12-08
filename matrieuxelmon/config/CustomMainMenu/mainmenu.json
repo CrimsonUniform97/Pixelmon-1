@@ -1,137 +1,123 @@
 {
     "images":
     {
+        "transparent":
+        {
+            "image" : "custommainmenu:textures/gui/blacktransparent.png",
+            "posX" : -50,
+            "posY" : -70,
+            "width" : 100,
+            "height" : 140,
+            "alignment" : "center"
+        },
+       
         "title":
         {
             "image" : "custommainmenu:textures/gui/logo.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 300,
-            "height" : 44,
-            "alignment" : "top_center"
+            "posX" : -53,
+            "posY" : -70,
+            "width" : 108,
+            "height" : 16,
+            "alignment" : "center"
         }
     },
-    
+   
     "buttons":  {
-        "singleplayer": {
-            "text": "menu.singleplayer",
-            "posX": -100,
-            "posY": 0,
-            "width": 99,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 13092807,
-            "hoverTextColor": 16175570,
+        "singleplayer":  {
+            "text" : "menu.singleplayer",
+            "posX" : -50,
+            "posY" : -50,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/blacktransparentbutton.png",
+            "alignment" : "center",
             "shadow" : false,
-            "action":  {
+			"action":  {
                 "type": "openGui",
                 "gui":  "singleplayer"
             }
         },
-        "multiplayer":  {
-            "text": "menu.multiplayer",
-            "posX": 1,
-            "posY": 0,
-            "width": 99,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 13092807,
-            "hoverTextColor": 16175570,
+       
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -50,
+            "posY" : -30,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/blacktransparentbutton.png",
+            "alignment" : "center",
             "shadow" : false,
-            "action":  {
+			"action":  {
                 "type": "openGui",
                 "gui":  "multiplayer"
             }
         },
-        "PlayPixelmoncraft":  {
-            "text": "Matrieuxelmon",
-            "posX": -100,
-            "posY": 22,
-            "width": 200,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 16175570,
-            "hoverTextColor": 13092807,
+       
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -50,
+            "posY" : -10,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/blacktransparentbutton.png",
+            "alignment" : "center",
             "shadow" : false,
-            "action":  {
-                "type": "connectToServer",
-                "ip":  ""
-            }
-        },
-        "website":  {
-            "text": "Website",
-            "posX": -100,
-            "posY": 44,
-            "width": 99,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 13092807,
-            "hoverTextColor": 16175570,
-            "shadow" : false,
-            "action":  {
-                "type": "openLink",
-                "link":  "https://jensz12.com/pixelmon"
-            }
-        },
-        "mods":  {
-            "text": "fml.menu.mods",
-            "posX": 1,
-            "posY": 44,
-            "width": 99,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 13092807,
-            "hoverTextColor": 16175570,
-            "shadow" : false,
-            "action":  {
+			 "action":  {
                 "type": "openGui",
                 "gui":  "mods"
             }
         },
-        "options":  {
-            "text": "menu.options",
-            "posX": -100,
-            "posY": 66,
-            "width": 99,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 13092807,
-            "hoverTextColor": 16175570,
+           
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -50,
+            "posY" : 10,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/blacktransparentbutton.png",
+            "alignment" : "center",
             "shadow" : false,
-            "action":  {
+			"action":  {
                 "type": "openGui",
                 "gui":  "options"
             }
         },
-        "quit":  {
-            "text": "menu.quit",
-            "posX": 1,
-            "posY": 66,
-            "width": 99,
-            "height": 20,
-            "alignment":  "center",
-            "normalTextColor": 13092807,
-            "hoverTextColor": 16175570,
+       
+        "language":
+        {
+            "text" : "Language",
+            "posX" : -50,
+            "posY" : 30,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/blacktransparentbutton.png",
+            "alignment" : "center",
             "shadow" : false,
-            "action":  {
+			"action":  {
+                "type": "openGui",
+				"gui": "languages"
+            }
+        },
+       
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -50,
+            "posY" : 50,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/blacktransparentbutton.png",
+            "alignment" : "center",
+            "shadow" : false,
+			"action":  {
                 "type": "quit"
             }
         }
-        //"refresh":
-        //{
-          //  "text" : "",
-          //  "posX" : -154,
-            //"posY" : 132,
-            //"width" : 20,
-            //"height" : 20,
-            //"texture" : "custommainmenu:textures/gui/buttons.png",
-            //"action" : 
-            //{
-            //    "type" : "refresh"
-          //  }
-        //}
     },
-    
+   
     "texts":
     {
         "mojang":
@@ -142,8 +128,8 @@
             "color" : -1,
             "alignment" : "bottom_right"
         },
-        
-        "fml":
+		
+		"fml":
         {
             "text" : "",
             "posX" : 2,
@@ -152,18 +138,9 @@
             "alignment" : "bottom_left"
         }
     },
-    
+   
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
         "panorama":
         {
             "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
