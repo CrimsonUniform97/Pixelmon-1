@@ -112,7 +112,9 @@
       "sell": 100
     },
     {
-      "name": "pixelmon:item.Master_Ball"
+      "name": "pixelmon:item.Master_Ball",
+	  "buy": 1000000,
+	  "sell": 1
     },
     {
       "name": "pixelmon:item.GS_Ball"
@@ -626,14 +628,17 @@
     },
     {
       "name": "pixelmon:item.Ever_Stone",
+	  "buy": 100000,
       "sell": 100
     },
     {
       "name": "pixelmon:item.Lucky_Egg",
+	  "buy": 500000,
       "sell": 100
     },
     {
       "name": "pixelmon:item.Exp._Share",
+	  "buy": 500000,
       "sell": 1500
     },
     {
