@@ -126,6 +126,7 @@
     },
     {
       "name": "pixelmon:item.Rare_Candy",
+	  "buy": 50000,
       "sell": 2400
     },
     {
@@ -180,6 +181,7 @@
     },
     {
       "name": "pixelmon:item.Max_Revive",
+	  "buy": 5000,
       "sell": 2000
     },
     {
@@ -260,26 +262,32 @@
     },
     {
       "name": "pixelmon:item.Pomeg_Berry",
+	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Kelpsy_Berry",
+	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Qualot_Berry",
+	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Hondew_Berry",
+	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Grepa_Berry",
+	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Tamato_Berry",
+	  "buy": 10000,
       "sell": 10
     },
     {
@@ -643,14 +651,17 @@
     },
     {
       "name": "pixelmon:item.Choice_Band",
+	  "buy": 100000,
       "sell": 50
     },
     {
       "name": "pixelmon:item.Choice_Scarf",
+	  "buy": 100000,
       "sell": 100
     },
     {
       "name": "pixelmon:item.Choice_Specs",
+	  "buy": 100000,
       "sell": 100
     },
     {
@@ -659,30 +670,37 @@
     },
     {
       "name": "pixelmon:item.Macho_Brace",
+	  "buy": 250000,
       "sell": 1500
     },
     {
       "name": "pixelmon:item.Power_Weight",
+	  "buy": 250000,
       "sell": 1500
     },
     {
       "name": "pixelmon:item.Power_Bracer",
+	  "buy": 250000,
       "sell": 1500
     },
     {
       "name": "pixelmon:item.Power_Belt",
+	  "buy": 250000,
       "sell": 1500
     },
     {
       "name": "pixelmon:item.Power_Lens",
+	  "buy": 250000,
       "sell": 1500
     },
     {
       "name": "pixelmon:item.Power_Band",
+	  "buy": 250000,
       "sell": 1500
     },
     {
       "name": "pixelmon:item.Power_Anklet",
+	  "buy": 250000,
       "sell": 1500
     },
     {
