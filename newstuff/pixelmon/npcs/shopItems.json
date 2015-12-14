@@ -717,6 +717,7 @@
     },
     {
       "name": "pixelmon:item.Leftovers",
+	  "buy": 100000,
       "sell": 100
     },
     {
@@ -757,14 +758,17 @@
     },
     {
       "name": "pixelmon:item.Razor_Fang",
+	  "buy": 25000,
       "sell": 1050
     },
     {
       "name": "pixelmon:item.Dragon_Scale",
+	  "buy": 25000,
       "sell": 1050
     },
     {
       "name": "pixelmon:item.RazorClaw",
+	  "buy": 25000,
       "sell": 1050
     },
     {
@@ -773,6 +777,7 @@
     },
     {
       "name": "pixelmon:item.Life_Orb",
+	  "buy": 50000,
       "sell": 100
     },
     {
@@ -809,6 +814,7 @@
     },
     {
       "name": "pixelmon:item.ShedShell",
+	  "buy": 10000,
       "sell": 50
     },
     {
@@ -829,14 +835,17 @@
     },
     {
       "name": "pixelmon:item.Eviolite",
+	  "buy": 25000,
       "sell": 100
     },
     {
       "name": "pixelmon:item.LightBall",
+	  "buy": 25000,
       "sell": 50
     },
     {
       "name": "pixelmon:item.LuckyPunch",
+	  "buy": 25000,
       "sell": 5
     },
     {
@@ -853,6 +862,7 @@
     },
     {
       "name": "pixelmon:item.ThickClub",
+	  "buy": 25000,
       "sell": 250
     },
     {
@@ -881,6 +891,7 @@
     },
     {
       "name": "pixelmon:item.QuickClaw",
+	  "buy": 25000,
       "sell": 50
     },
     {
@@ -889,6 +900,7 @@
     },
     {
       "name": "pixelmon:item.BigRoot",
+	  "buy": 50000,
       "sell": 100
     },
     {
@@ -933,6 +945,7 @@
     },
     {
       "name": "pixelmon:item.IronBall",
+	  "buy": 50000,
       "sell": 100
     },
     {
@@ -1073,6 +1086,7 @@
     },
     {
       "name": "pixelmon:item.DragonFang",
+	  "buy": 50000,
       "sell": 50
     },
     {
@@ -1101,10 +1115,12 @@
     },
     {
       "name": "pixelmon:item.PoisonBarb",
+	  "buy": 50000,
       "sell": 50
     },
     {
       "name": "pixelmon:item.SharpBeak",
+	  "buy": 50000,
       "sell": 50
     },
     {
@@ -1113,6 +1129,7 @@
     },
     {
       "name": "pixelmon:item.SilverPowder",
+	  "buy": 50000,
       "sell": 50
     },
     {
