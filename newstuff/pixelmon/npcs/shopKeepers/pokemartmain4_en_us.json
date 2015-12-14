@@ -28,7 +28,7 @@
   ],
   "names": [
     {
-      "name": "Jeg er en troll"
+      "name": "Damishian"
     }
   ],
   "chat": [
@@ -46,62 +46,74 @@
   */
   "items": [
     {
-      "name": "pixelmon:item.Master_Ball"
+      "name": "pixelmon:item.Master_Ball",
+	  "multi": 1
     },
     {
       "name": "pixelmon:item.Lucky_Egg"
     },
     {
-      "name": "pixelmon:item.Ever_Stone"
+      "name": "pixelmon:item.Rare_Candy"
     },
     {
       "name": "pixelmon:item.Exp._Share"
     },
     {
-      "name": "pixelmon:item.Potion"
+      "name": "pixelmon:item.Pomeg_Berry"
     },
     {
-      "name": "pixelmon:item.Super_Potion"
+      "name": "pixelmon:item.Kelpsy_Berry"
     },
     {
-      "name": "pixelmon:item.Hyper_Potion",
-      "rarity": 0.5
+      "name": "pixelmon:item.Qualot_Berry"
     },
     {
-      "name": "pixelmon:item.Max_Potion",
-      "rarity": 0.1,
-      "multi": 0.8
+      "name": "pixelmon:item.Hondew_Berry"
     },
     {
-      "name": "pixelmon:item.Full_Restore",
-      "rarity": 0.1
+      "name": "pixelmon:item.Grepa_Berry"
     },
     {
-      "name": "pixelmon:item.Full_Heal"
+      "name": "pixelmon:item.Tamato_Berry"
     },
     {
-      "name": "pixelmon:item.Antidote",
-      "rarity": 0.5
+      "name": "pixelmon:item.Choice_Band"
     },
     {
-      "name": "pixelmon:item.Awakening",
-      "rarity": 0.5
+      "name": "pixelmon:item.Choice_Scarf"
     },
     {
-      "name": "pixelmon:item.Burn_Heal",
-      "rarity": 0.5
+      "name": "pixelmon:item.Choice_Specs"
     },
     {
-      "name": "pixelmon:item.Ice_Heal",
-      "rarity": 0.5
+      "name": "pixelmon:item.Macho_Brace"
     },
     {
-      "name": "pixelmon:item.Paralyze_Heal",
-      "rarity": 0.5
+      "name": "pixelmon:item.Power_Weight"
     },
     {
-      "name": "pixelmon:item.Revive",
-      "rarity": 0.8
+      "name": "pixelmon:item.Power_Bracer"
+    },
+	{
+      "name": "pixelmon:item.Power_Belt"
+    },
+	{
+      "name": "pixelmon:item.Power_Lens"
+    },
+	{
+      "name": "pixelmon:item.Power_Band"
+    },
+	{
+      "name": "pixelmon:item.Power_Anklet"
+    },
+	{
+      "name": "pixelmon:item.Power_Weight"
+    },
+	{
+      "name": "pixelmon:item.Power_Weight"
+    },
+	{
+      "name": "pixelmon:item.Power_Weight"
     }
   ]
 }
