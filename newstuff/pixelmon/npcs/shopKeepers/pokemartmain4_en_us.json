@@ -107,13 +107,55 @@
       "name": "pixelmon:item.Power_Anklet"
     },
 	{
-      "name": "pixelmon:item.Power_Weight"
+      "name": "pixelmon:item.Leftovers"
     },
 	{
-      "name": "pixelmon:item.Power_Weight"
+      "name": "pixelmon:item.Razor_Fang"
     },
 	{
-      "name": "pixelmon:item.Power_Weight"
+      "name": "pixelmon:item.Dragon_Scale"
+    },
+	{
+      "name": "pixelmon:item.RazorClaw"
+    },
+	{
+      "name": "pixelmon:item.Life_Orb"
+    },
+	{
+      "name": "pixelmon:item.ShedShell"
+    },
+	{
+      "name": "pixelmon:item.Eviolite"
+    },
+	{
+      "name": "pixelmon:item.LightBall"
+    },
+	{
+      "name": "pixelmon:item.LuckyPunch"
+    },
+	{
+      "name": "pixelmon:item.ThickClub"
+    },
+	{
+      "name": "pixelmon:item.QuickClaw"
+    },
+	{
+      "name": "pixelmon:item.BigRoot"
+    },
+	{
+      "name": "pixelmon:item.IronBall"
+    },
+	{
+      "name": "pixelmon:item.DragonFang"
+    },
+	{
+      "name": "pixelmon:item.PoisonBarb"
+    },
+	{
+      "name": "pixelmon:item.SharpBeak"
+    },
+	{
+      "name": "pixelmon:item.SilverPowder"
     }
   ]
 }
