@@ -1,0 +1,117 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Java8CheckerCoremod (Pixelmon-1.8-4.1.1-universal.jar)
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 11/30/15 3:21 PM
+Description: Ticking entity
+
+java.lang.NoClassDefFoundError: com/pixelmonmod/pixelmon/api/events/PlayerBattleEndedEvent$battleResults
+	at com.nguyenquyhy.PixelmonFriends.events.PixelmonEventHandler$1.<clinit>(PixelmonEventHandler.java:65)
+	at com.nguyenquyhy.PixelmonFriends.events.PixelmonEventHandler.broadcast(PixelmonEventHandler.java:116)
+	at com.nguyenquyhy.PixelmonFriends.events.PixelmonEventHandler.capture(PixelmonEventHandler.java:37)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_29_PixelmonEventHandler_capture_PixelmonCaptureEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at com.pixelmonmod.pixelmon.entities.pokeballs.EntityEmptyPokeball.catchPokemon(EntityEmptyPokeball.java:281)
+	at com.pixelmonmod.pixelmon.entities.pokeballs.EntityEmptyPokeball.func_70071_h_(EntityEmptyPokeball.java:268)
+	at net.minecraft.world.World.func_72866_a(World.java:1880)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:732)
+	at net.minecraft.world.World.func_72870_g(World.java:1850)
+	at net.minecraft.world.World.func_72939_s(World.java:1679)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:571)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:704)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:364)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:598)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:478)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: com.pixelmonmod.pixelmon.api.events.PlayerBattleEndedEvent$battleResults
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 18 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 20 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.nguyenquyhy.PixelmonFriends.events.PixelmonEventHandler$1.<clinit>(PixelmonEventHandler.java:65)
+	at com.nguyenquyhy.PixelmonFriends.events.PixelmonEventHandler.broadcast(PixelmonEventHandler.java:116)
+	at com.nguyenquyhy.PixelmonFriends.events.PixelmonEventHandler.capture(PixelmonEventHandler.java:37)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_29_PixelmonEventHandler_capture_PixelmonCaptureEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:55)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at com.pixelmonmod.pixelmon.entities.pokeballs.EntityEmptyPokeball.catchPokemon(EntityEmptyPokeball.java:281)
+	at com.pixelmonmod.pixelmon.entities.pokeballs.EntityEmptyPokeball.func_70071_h_(EntityEmptyPokeball.java:268)
+	at net.minecraft.world.World.func_72866_a(World.java:1880)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:732)
+	at net.minecraft.world.World.func_72870_g(World.java:1850)
+
+-- Entity being ticked --
+Details:
+	Entity Type: null (com.pixelmonmod.pixelmon.entities.pokeballs.EntityEmptyPokeball)
+	Entity ID: 1936
+	Entity Name: Ultra Ball
+	Entity's Exact location: -1039.00, 70.40, -1748.00
+	Entity's Block location: -1039.00,70.00,-1748.00 - World: (-1039,70,-1748), Chunk: (at 1,4,12 in -65,-110; contains blocks -1040,0,-1760 to -1025,255,-1745), Region: (-3,-4; contains chunks -96,-128 to -65,-97, blocks -1536,0,-2048 to -1025,255,-1537)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1679)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:571)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 3 total; [EntityPlayerMP['sarsum33'/10, l='world', x=-1042.37, y=71.00, z=-1758.35], EntityPlayerMP['Bisse'/376, l='world', x=-1043.07, y=75.00, z=-1776.77], EntityPlayerMP['DanishBaconHD'/900, l='world', x=-1042.39, y=74.00, z=-1773.73]]
+	Chunk stats: ServerChunkCache: 796 Drop: 0
+	Level seed: -2116039297834381930
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: 538.00,64.00,138.00 - World: (538,64,138), Chunk: (at 10,4,10 in 33,8; contains blocks 528,0,128 to 543,255,143), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Level time: 63643102 game time, 62581994 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 1 (now: false), thunder time: 1 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:704)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:364)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:598)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:478)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Linux (amd64) version 3.14.32-xxxx-grs-ipv6-64
+	Java Version: 1.8.0_45-internal, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 4567825048 bytes (4356 MB) / 5941755904 bytes (5666 MB) up to 5941755904 bytes (5666 MB)
+	JVM Flags: 2 total; -Xmx6144M -Xms6144M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.3.1542 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge.jar) 
+	UCHIJAAAA	Forge{11.14.3.1542} [Minecraft Forge] (forge.jar) 
+	UCHIJAAAA	pixelmon{4.1.1} [Pixelmon] (Pixelmon-1.8-4.1.1-universal.jar) 
+	UCHIJAAAA	itemfinder{2.0.0} [ItemFinder] (ItemFinder-1.8-2.0.1-universal.jar) 
+	UCHIJAAAA	pixelextras{1.0.0} [Pixel Extras] (PixelExtras-1.8-1.0-universal.jar) 
+	UCHIJAAAA	pixelmonfriends{1.1.0} [Pixelmon Friends] (pixelmonfriends-1.8-1.1.0-universal.jar) 
+	Loaded coremods (and transformers): 
+Java8CheckerCoremod (Pixelmon-1.8-4.1.1-universal.jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 3 / 20; [EntityPlayerMP['sarsum33'/10, l='world', x=-1042.37, y=71.00, z=-1758.35], EntityPlayerMP['Bisse'/376, l='world', x=-1043.07, y=75.00, z=-1776.77], EntityPlayerMP['DanishBaconHD'/900, l='world', x=-1042.39, y=74.00, z=-1773.73]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
