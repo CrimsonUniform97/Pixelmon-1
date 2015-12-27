@@ -16,4 +16,6 @@
    <Color x:Key="PlayButtonOuterColor">#0d4f8b</Color>
    <Color x:Key="DeleteButtonBGColour">#A81010</Color>
    <Color x:Key="SaveButtonBGColour">#0d4f8b</Color>
+   <Color x:Key="CancelButtonBGColour">#0d4f8b</Color>
+   <Color x:Key="CommonButtonBGColour">#0d4f8b</Color>
 </ResourceDictionary>
