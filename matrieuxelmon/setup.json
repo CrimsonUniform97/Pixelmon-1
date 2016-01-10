@@ -2,7 +2,7 @@
  "Name":"Matrieuxelmon", 
  "URL":"https://jensz12.com/pixelmon", 
  "requirements":{ 
-  "pixelmon":"4.1.3", 
+  "pixelmon":"4.1.4", 
   "forge":"Forge 11.14.3.1542", 
   "forgeBundled":true, 
   "forgeFile": "forge-1.8-11.14.3.1542-universal.jar", 
