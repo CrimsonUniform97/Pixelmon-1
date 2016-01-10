@@ -113,7 +113,8 @@
     },
     {
       "name": "pixelmon:item.Master_Ball",
-	  "buy": 1000000,
+	  "nbtData": "{display:{Lore:[\"Fanger næsten altid alt\"]}}",
+	  "buy": 999999,
 	  "sell": 1
     },
     {
@@ -262,31 +263,37 @@
     },
     {
       "name": "pixelmon:item.Pomeg_Berry",
+	  "nbtData": "{display:{Lore:[\"Reducere HP EV med 10\"]}}",
 	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Kelpsy_Berry",
+	  "nbtData": "{display:{Lore:[\"Reducere attack EV med 10\"]}}",
 	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Qualot_Berry",
+	  "nbtData": "{display:{Lore:[\"Reducere defence EV med 10\"]}}",
 	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Hondew_Berry",
+	  "nbtData": "{display:{Lore:[\"Reducere special attack EV med 10\"]}}",
 	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Grepa_Berry",
+	  "nbtData": "{display:{Lore:[\"Reducere special defence EV med 10\"]}}",
 	  "buy": 10000,
       "sell": 10
     },
     {
       "name": "pixelmon:item.Tamato_Berry",
+	  "nbtData": "{display:{Lore:[\"Reducere speed EV med 10\"]}}",
 	  "buy": 10000,
       "sell": 10
     },
@@ -2197,6 +2204,16 @@
       "name": "pixelmon:PokeMail-wood",
       "buy": 50,
       "sell": 25
-    }
+    },
+	{
+      "name": "pixelmon:item.ranchupgrade",
+      "buy": 25000,
+      "sell": 25
+    },
+	{
+    "name": "minecraft:beacon",
+    "buy": 10000,
+    "sell": 1
+	}
   ]
 }
