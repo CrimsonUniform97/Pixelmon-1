@@ -271,7 +271,7 @@ Spawning {
     # Minimum number of ticks before a particular legendary can spawn again (via main spawner).
     legendaryRepeatSpawnTicks=96000
     # Chance that a Legendary spawn attempt will succeed (0-1).
-    legendarySpawnChance=0.30000001192092896
+    legendarySpawnChance=0.0750000029802322
     # Sets odds of Legendary spawning (1 in X spawns). Higher values spawn wild Legendaries less often.
     legendarySpawnRate=22000
     # Average number of ticks before an attempt at Legendary spawning will be made (modified by spawn chance).
