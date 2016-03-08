@@ -1,33 +1,29 @@
-{ 
- "Name":"Matrieuxelmon", 
- "URL":"https://jensz12.com/pixelmon", 
- "requirements":{ 
-  "pixelmon":"4.1.4", 
-  "forge":"Forge 11.14.3.1542", 
-  "forgeBundled":true, 
-  "forgeFile": "forge-1.8-11.14.3.1542-universal.jar", 
+{
+ "Name":"Matrieuxelmon",
+ "URL":"https://jensz12.com/pixelmon",
+ "requirements":{
+  "pixelmon":"4.2.2",
+  "forge":"Forge 11.15.1.1722",
+  "forgeBundled":true,
+  "forgeFile": "forge-1.8.9-11.15.1.1722-installer.jar",
   "mods":[
     {
-    "filename":"ItemFinder-1.8-2.0.1-universal.jar", 
-    "bundled":true 
+    "filename":"ItemFinder-1.8.9-2.1.0-universal.jar",
+    "bundled":true
 	},
 	{
-    "filename":"pixelmonfriends-1.8-1.2.0-universal.jar", 
-    "bundled":true 
+    "filename":"CustomMainMenu-MC1.8.9-2.0.jar",
+    "bundled":true
 	},
 	{
-    "filename":"CustomMainMenu-MC1.8-1.9.2.jar", 
-    "bundled":true 
-	},
-	{
-    "filename":"PixelExtras-1.8-1.0-universal.jar", 
-    "bundled":true 
+    "filename":"PixelExtras-1.8.9-2.1.0-universal.jar",
+    "bundled":true
 	}
    ]
- }, 
-"servers":[ 
-  { 
-  "IP":"",
-  "Name":"Matrieuxelmon" 
-  }] 
+ },
+"servers":[
+  {
+  "IP":"**************",
+  "Name":"Matrieuxelmon"
+  }]
 }

@@ -123,8 +123,8 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
+            "posX" : -205,
+            "posY" : -15,
             "color" : -1,
             "alignment" : "bottom_right"
         },
