@@ -20,5 +20,5 @@
     <Color x:Key="SaveButtonBGColour">#41b015</Color>
     <Color x:Key="PlayButtonContentColor">#FFFFFF</Color>
     <Color x:Key="RoundButtonBackgroundColor">#0d4f8b</Color>
-    <ImageBrush x:Key="BackgroundOverlayBrush" ImageSource="https://static.jensz12.com/pixelmon/image/banner.png" TileMode="Tile" Viewport="0,0,1934,378" ViewportUnits="Absolute"/>
+    <ImageBrush x:Key="BackgroundOverlayBrush" ImageSource="https://static.jensz12.com/pixelmon/image/screen3.png" TileMode="Tile" Viewport="0,0,1600,900" ViewportUnits="Absolute"/>
 </ResourceDictionary>
